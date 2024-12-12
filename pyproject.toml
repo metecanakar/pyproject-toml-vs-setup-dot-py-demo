@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools==75.6.0", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_project"
+version = "0.1.0"
+description = "An example Python project"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "pandas==2.2.3",
+    "setuptools==75.6.0",
+    "build"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}  # Maps the root package to the "src" directory
+
+[tool.setuptools.packages.find]
+where = ["src"]  # Discovers packages in the "src" directory
