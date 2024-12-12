@@ -1,4 +1,4 @@
-# Example Usage Comparison of pyproject.toml vs setup.py
+# Example Usage Comparison of pyproject.toml vs setup.py (guide for migration)
 
 - Using setup.py:
   - Create python venv as usual and activate
